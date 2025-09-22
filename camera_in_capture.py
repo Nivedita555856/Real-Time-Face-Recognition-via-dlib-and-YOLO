@@ -8,7 +8,7 @@ from ultralytics import YOLO
 # ====== CONFIG ======
 CAPTURE_FOLDER = "COMING_IN/"
 
-RTSP_URL = 'rtsp://admin:password@3@172.22.9.119:554/cam/realmonitor?channel=1&subtype=0'
+RTSP_URL = ''
 
 MIN_FACE_CONFIDENCE = 0.6  # Minimum confidence for face detection
 SHOW_OUTPUT = True
@@ -210,4 +210,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
